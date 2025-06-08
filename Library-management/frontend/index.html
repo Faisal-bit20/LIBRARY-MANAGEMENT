@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Management System</title>
+</head>
+<body>
+  <h1>Library Management System</h1>
+
+  <h2>Add Resource</h2>
+  <input id="resId" placeholder="ID" />
+  <input id="resTitle" placeholder="Title" />
+  <input id="resType" placeholder="Type (Book/Journal/Multimedia)" />
+  <button onclick="addResource()">Add</button>
+
+  <h2>Register Member</h2>
+  <input id="memId" placeholder="Member ID" />
+  <input id="memName" placeholder="Name" />
+  <button onclick="registerMember()">Register</button>
+
+  <h2>Resources</h2>
+  <button onclick="listResources()">List Resources</button>
+  <pre id="resources"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
